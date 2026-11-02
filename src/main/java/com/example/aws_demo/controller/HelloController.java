@@ -7,6 +7,6 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello from AWS EC2!";
+        return "Hello from AWS ECS, deployed by GitHub Actions!";
     }
 }
